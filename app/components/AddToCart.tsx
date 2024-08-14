@@ -5,7 +5,9 @@ import React from "react";
 export const AddToCart = () => {
   return (
     <div>
-      <button onClick={() => console.log("123")}>Click Here ...</button>
+      <button className="btn" onClick={() => console.log("123")}>
+        Add to cart
+      </button>
     </div>
   );
 };
